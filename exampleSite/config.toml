@@ -17,8 +17,6 @@ home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
-[menu]
-static = []
 [[menu.main]]
 URL = "about"
 name = "About Us"
@@ -43,6 +41,10 @@ weight = 6
 URL = "contact"
 name = "Contact"
 weight = 7
+[[menu.static]]
+URL = "https://3wisemonkeys.org"
+name = "Main"
+weight = "9999"
 [params]
 author = "RC"
 description = "3WM Development"
