@@ -17,6 +17,8 @@ home = "Accueil"
 languageCode = "fr-fr"
 languageName = "Fr"
 weight = 2
+[menu]
+static = []
 [[menu.main]]
 URL = "about"
 name = "About Us"
@@ -34,10 +36,6 @@ URL = "team"
 name = "Team"
 weight = 4
 [[menu.main]]
-URL = "pricing"
-name = "Pricing"
-weight = 5
-[[menu.main]]
 URL = "blog"
 name = "Blog"
 weight = 6
@@ -45,10 +43,6 @@ weight = 6
 URL = "contact"
 name = "Contact"
 weight = 7
-[[menu.static]]
-URL = "https://themefisher.com/"
-name = "Themefisher"
-weight = 8
 [params]
 author = "RC"
 description = "3WM Development"
